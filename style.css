@@ -358,36 +358,6 @@ h2 {
     .main__copy a:hover {
       background-color: #E9F0FF;
       border-color: #1560FB; }
-.main__project, .main__project--first {
-  margin-bottom: 20px;
-  width: 75%; }
-  @media (min-width: 1024px) {
-    .main__project, .main__project--first {
-      float: left;
-      max-width: 500px;
-      margin-left: 110px; } }
-  .main__project:last-child, .main__project--first:last-child {
-    margin-bottom: 0; }
-  .main__project--first {
-    margin-left: 0; }
-  .main__project-title, .main__resume {
-    margin: 20px 0 10px 0;
-    transition: 0.3s opacity ease; }
-    .main__project-title:hover, .main__resume:hover {
-      opacity: 0.6; }
-    .main__project-title:after, .main__resume:after {
-      position: relative;
-      bottom: 0.2ex;
-      margin-left: 20px;
-      content: "";
-      color: #1560FB;
-      font-family: "FontAwesome";
-      font-size: 12px; }
-    .main__project-title:first-child, .main__resume:first-child {
-      margin-top: 3px; }
-  .main__project-description {
-    margin: 0;
-    line-height: 26px; }
 .main__list {
   clear: both;
   padding: 0;
